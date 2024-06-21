@@ -27,7 +27,7 @@ jobs:
         uses: azure/setup-helm@v4
         with:
           version: v3.13.0
-          token: ${{github.token}}
+          # token: ${{github.token}}
       # Optional step if GPG signing is used
       # - name: Prepare GPG key
       #   run: |
